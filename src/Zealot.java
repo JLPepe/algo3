@@ -140,8 +140,9 @@ public class Zealot extends Unidad {
 	
 	public void atacar (Vida vida){
 	
-		vida.recibirDanio(this.getDanio());
-
+		vida.recibirDanio(this.getDanio().getDanioTierra());
+		//le agregue getDanioTierra porque antes devolvia solo Danio, no
+		//un entero..
 	} 
 	
 

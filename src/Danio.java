@@ -4,7 +4,10 @@ public class Danio {
 	
 	private int danioTierra;
 	private int danioAire;
-
+	
+	public int getDanioTierra(){
+		return danioTierra;
+	}
 	public  Danio(){
 		
 	}
